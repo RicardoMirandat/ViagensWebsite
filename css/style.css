@@ -1,0 +1,35 @@
+/* importanto as fontes para o site*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Poppins:wght@400;700&display=swap');
+
+/*definocao de variaveis*/
+:root{
+    /* fontes  */
+    --fonte_principal: "Poppins", "sans-serif";
+    --fonte_secundaria: "Lobster", "sans-serif";
+
+    /*paleta de cores*/
+    --cor_principal: #747dff ;
+    --cor_destaque:  #ffad32 ;
+    --cor_principal_escuro: #747dff85 ;
+    --cor_gradiente_01: #ffe7c2;
+    --cor_gradiente_02: #bdacff;
+    --cor_01: #f9f9f9;
+    --cor_02: #B8C0C7;
+    --cor_03: #767f83;
+    --cor_04: #3c4852;
+    --cor_05: #00000043;
+
+
+}
+
+/* limpa as configuracoes padroes do naveagador */
+*{
+    margin: 0%;
+    padding: 0; /* tira o espacamneto do conteudo */
+    box-sizing: border-box; /*fica uma caixa ajustado dentro do html*/
+    scroll-behavior: smooth;
+}
+html{
+   font-family: var(--fonte_principal); 
+   font-size: 18px;
+}
