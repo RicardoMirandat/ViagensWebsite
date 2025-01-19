@@ -5,10 +5,265 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agencia de Viagens</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
     
     
 </head>
 <body>
-    
+    <!--barra de navegacao-->
+    <nav>
+        <div class="logo">BrsViagens</div>
+        <div class="menu">
+            <a href="home">home</a>
+            <a href="#passeios">Passeios</a>
+            <a href="#destinos">Destinos</a>
+            <a href="#avaliacoes">avaliacoes</a>
+        </div>
+    </nav>
+    <!--banner e calendario-->
+    <header>
+        <div class="titulo">
+            Explore o mundo
+        </div>
+        <div class="booking">
+            <form >
+                <div>
+                    <label for="destino">Para onde vamos</label>
+                    <input type="text" name="" id="destino">
+                </div>
+
+                <div>
+                    <label for="partida">quando?</label>
+                    <input type="date" name="" id="partida">
+  
+                </div>
+
+                <div>
+                    <label for="retorno">retorno</label>
+                    <input type="date" name="" id="retorno">
+                </div>
+                <button type="button">buscar</button>
+            </form>
+        </div>
+    </header>
+
+    <!-- passeios -->
+    <section class="passeios" id="passeis">
+        <div class="info_passeio">
+            <h1>Proximos passeios e destinos</h1>
+
+            <hr>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat laudantium veniam nisi pariatur, earum, aperiam labore rerum fugit adipisci vitae temporibus est quas ipsa minus impedit? Perferendis culpa reprehenderit itaque?
+
+            </p>
+
+            <button>saiba mais</button>
+        </div>
+        <div class="fotos_passeio">
+            <div class="foto">
+                <img src="img/travel01.jpg" alt="foto1">
+                <div class="foto">
+                    <img src="img/travel02.jpg" alt="foto2">
+                </div>
+                <div class="foto">
+                    <img src="img/travel03.jpg" alt="foto3">
+                </div>
+                <div class="foto">
+                    <img src="img/travel04.jpg" alt="foto4">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- destinos-->
+    <section class="destinos" id="destinos">
+        <h1>para onde vamos?</h1>
+        <div class="grupo_destinos">
+
+            <!--destino 1-->
+            <div class="card_destino">
+                <img src="img/Barcelona.jpg" alt="Barcelona">
+                <div>
+                    <span>Barcelona</span>,espanha
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci molestias sunt consectetur repellendus ducimus harum natus numquam reprehenderit quae. Similique perferendis facere totam nisi minus accusamus! Consequatur eaque unde maiores?
+                    </p>
+                    <div class="valor">
+                        <h3>R$ 3.000</h3>
+                        <span>R$ 4.400</span>
+                    </div>
+                    <div class="card_btn">
+                        <button>saiba mais</button>
+                    </div>
+                </div>
+            </div>
+            <!--destino 2-->
+            <div class="card_destino">
+                <img src="img/Porto.jpg" alt="Porto">
+            </div>
+            <span>Porto</span> portugal
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab esse necessitatibus ea repellat libero sint numquam veniam deserunt, ipsum voluptas nulla repellendus adipisci. Necessitatibus nemo esse asperiores delectus. Excepturi, delectus.
+
+            </p>
+            <div class="valor">
+                <h3>R$2.500</h3>
+                <span>R$ 3.300</span>
+            </div>
+            <div class="card_btn">
+                <button>saiba mais</button>
+            </div>
+            <!--destino 3-->
+            <div class="card_destino">
+                <img src="img/Milan.jpg" alt="Milao">
+            </div>
+            <span>Milao, </span>italia
+            <p>
+                
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut voluptates nihil distinctio consectetur tenetur totam qui modi corporis necessitatibus, debitis repellendus exercitationem quisquam eligendi, ab tempore nobis reprehenderit iusto ea!
+
+            </p>
+            <div class="valor">
+                <h3>R$ 4.300</h3>
+                <span>5.800</span>
+            </div>
+            <div class="card_btn">
+                <button>saiba mais</button>
+            </div>
+            <!--destino 4-->
+            <div class="card_destino">
+                <img src="img/London.jpeg" alt="londres">
+            </div>
+            <span>londres, </span>Inglaterra
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati provident dolor nam harum doloremque nihil optio facilis quia est praesentium, sequi qui, ut impedit magnam, debitis reprehenderit consequuntur vitae incidunt.
+
+            </p>
+            <div class="card_valores">
+                <h3>R$ 5.000</h3>
+                <span>R$ 7,000</span>
+            </div>
+            <div class="card_btn">
+                <button>saiba mais</button>
+            </div>
+            <!--destino 5-->
+            <div class="card_destino">
+                <img src="img/Lauterbrunnen.jpeg" alt="Lauterbrunnen">
+            </div>
+            <span>Lauterbrunnen, </span> Suica
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo corporis dolor itaque iure? Maxime expedita vel, possimus ea nihil tempore excepturi, a est laudantium, accusantium voluptates aliquid consequuntur totam consequatur?
+            </p>
+            <div class="card_valores">
+                <h3>R$ 3.000</h3>
+                <span>R$ 6.000</span>
+            </div>
+            <div class="card_btn">
+                <button>saiba mais</button>
+            </div>
+            <!--destino 6-->
+            <div class="card_viagem">
+            <img src="img/Paris.jpg" alt="paris">
+            </div>
+            <span>Paris,</span> Franca
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto doloribus dolore repudiandae iusto cum obcaecati, doloremque non hic quasi molestias sequi ipsam! Voluptatibus iste cumque fugit temporibus officia architecto atque?
+            </p>
+            <div class="card_valores">
+                <h3>R$ 4.000</h3>
+                <span>R$ 8.000</span>
+            </div>
+            <div class="card_btn">
+                <button>saiba mais</button>
+            </div>
+
+
+        </div>
+    </section>
+    <!--avaliacoes-->
+    <section class="avaliacoes" id="avaliacoes" >
+        <h1>avaliacoes dos clientes</h1>
+        <div class="carrosel">
+            <div class="cliente">
+                <p>
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem facere quis molestiae. In cumque aliquam id ut ab iste ad laborum, sit nulla labore similique adipisci corporis quos dolores? Praesentium?""
+                </p>
+                <img src="img/cliente01.png" alt="cliente1">
+
+                <p>
+                    <span>Ana,</span> Prefeita
+                </p>
+            </div>
+            <div class="cliente">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio explicabo, blanditiis sequi dolor possimus facere commodi natus tempora nesciunt inventore quos tenetur qui in quae, itaque, impedit dolores reprehenderit. Laudantium?
+                </p>
+                <img src="img/cliente03.png" alt="cliente2">
+
+                <p>
+                    <span>jorge,</span> Cabelereiro
+                </p>
+                <div class="cleinte">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis esse, nulla ex porro deleniti delectus impedit culpa ipsa aliquam necessitatibus in vel veritatis adipisci, voluptates facilis officiis neque totam ab.
+                    </p>
+                    <img src="img/cliente02.png" alt="cliente3">
+                    <p>
+                        <span>Claudia,</span> Diarista
+                    </p>
+                </div>
+                <button class="anterior">&#10094;</button>
+                <button class="proximo">&#10095;</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- rodape-->
+     <footer>
+        <div class="empresa">
+            <h1>
+                <div class="logo">brs Viagens</div>
+            </h1>
+            <p>
+                <span>BrsViagens e </span>
+                Avenida Sapopemba 1234, Sao Paulo - SP
+            </p>
+        </div>
+        <div class="parceiros">
+            <h3>nossos parceiros</h3>
+            <p>Amor Saude Sapopemba</p>
+            <p>imigrantes Bebidas</p>
+            <p>global Veiculos</p>
+            <p>POP-SP</p>
+        </div>
+        <div class="newslatter">
+            <h3>Assine nosso newslettter</h3>
+
+            <div class="input_group">
+                <input type="text" placeholder="informe seu email">
+                <button>enviar</button>
+            </div>
+
+            <hr>
+
+            <h3>siga nossas redes socias</h3>
+            <div class="redes_sociais">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+
+            </div>
+
+        </div>
+
+     </footer>
+     <div class="rodape"></div>
 </body>
+    <script src="js/script.js"></script>
 </html>
