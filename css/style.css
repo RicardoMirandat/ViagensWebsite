@@ -94,5 +94,19 @@ header{
     letter-spacing: 0.1rem;
     word-spacing:0.5rem;
     height: 100%;
+    text-shadow: 0.2rem 0 0.2rem var(--cor_04);
     
+}
+.booking{
+    background-color: var(--cor_principal_escuro);
+    padding: 0.8rem 3rem;
+}
+.booking form{
+    background-color: var(--cor_01);
+    color: var(--cor_03);
+    padding: 1rem 1.4rem;
+    display: flex;
+    align-items: end;
+    border-radius: 0.2rem;
+
 }
